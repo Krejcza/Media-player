@@ -107,3 +107,11 @@ nav .circle{
    background: #2ea530;
    color: #fff;
 }
+
+#ctrlIcon{
+   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#ctrlIcon:hover{
+   transform: scale(1.5);
+}
